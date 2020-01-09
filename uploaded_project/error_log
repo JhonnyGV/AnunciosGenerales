@@ -1,0 +1,2 @@
+[29-May-2014 03:58:40 America/New_York] PHP Warning:  require_once(includes/session.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/samarpan/public_html/uploaded_project/project_main.php on line 2
+[29-May-2014 03:58:40 America/New_York] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'includes/session.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/samarpan/public_html/uploaded_project/project_main.php on line 2

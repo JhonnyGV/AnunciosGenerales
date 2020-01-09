@@ -1,0 +1,138 @@
+body {
+	background: #ddd;
+}
+#staff_button {
+	float: right;
+	padding: 20px 20px 20px 20px;
+}
+#staff_button a {
+	background: red;
+	width: 100px;
+	text-decoration: none;
+	padding: 20px 20px 20px 20px;
+	color: white;
+	min-width: 100px;
+}
+#staff_button a:hover {
+	color: red;
+	background: white;
+}
+#header_name {
+	position: relative;
+	top: -70px;
+	left: 180px;
+	font-size: 50px;
+	font-family: "Courier New", Courier, monospace;
+}
+#search {
+	position: relative;
+	background: #1A446C;
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	color: #ddd;
+	padding: 20px;
+	margin: 0px;
+}
+th {
+	height: 50px;
+	background: yellow;
+	text-align: center;
+	font-weight: bolder;
+}
+td {
+	padding: 10px;
+}
+textarea {
+	height: 120px;
+	width: 500px;
+}
+#button {
+	width: 100px;
+	height: 32px;
+	background-color: #1A446C;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	color: #fff;
+	margin-left: 2px;
+	padding: 2px 12px 2px 12px;
+	margin-bottom: 1px;
+	font-family: 'Oswald';
+	font-size: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	border: 1px solid #000;
+}
+#button:hover {
+	background: #fff;
+	color: #1A446C;
+}
+#search_button {
+	width: 130px;
+	height: 30px;
+	background-color: #1A446C;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 6px;
+	color: #fff;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 2px 8px 2px 8px;
+	margin-bottom: 10px;
+	font-family: 'Oswald';
+	font-size: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	border: 1px solid #fff;
+}
+#search_button:hover {
+	background: #fff;
+	color: #1A446C;
+}
+#idlist {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	height: 32px;
+	border: 1px solid #000;
+	width: 820px;
+	text-align: center;
+	text-indent: 8px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	behavior: url(border-radius.htc);
+}
+#idlist:hover {
+	color: #fff;
+	background: #1A446C;
+	border-color: #fff;
+}
+#menulist {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	height: 32px;
+	border: 1px solid #000;
+	width: 140px;
+	text-indent: 8px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	behavior: url(border-radius.htc);
+	font-size: 12px;
+	text-align: center;
+}
+#menulist:hover {
+	color: #fff;
+	background: #1A446C;
+	border-color: #fff;
+}
+.arrow {
+	cursor: pointer;
+	height: 32px;
+	width: 24px;
+	position: absolute;
+	right: 0px;
+	background-color: #c8c8c8;
+	background: url('http://icons.aniboom.com/Energy/Resources/userControls/TimeFrameDropDownFilter/Dropdown_Arrow.png') 0;
+}
